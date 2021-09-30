@@ -10,13 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_29_151157) do
+ActiveRecord::Schema.define(version: 2021_09_30_195056) do
 
   create_table "users", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "nickname"
     t.integer "kind"
+    t.integer "level"
+  end
+
+  create_table "weapons", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "name"
+    t.string "description"
+    t.integer "power_base"
+    t.integer "power_step"
     t.integer "level"
   end
 

@@ -1,0 +1,15 @@
+current directory: /home/LUANA.NEGREIROS/workspace/estudos/onebitcode/teste-rspec/test_like_a_hero/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210930-434271-1q1sfzv.rb extconf.rb
+creating Makefile
+
+current directory: /home/LUANA.NEGREIROS/workspace/estudos/onebitcode/teste-rspec/test_like_a_hero/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/LUANA.NEGREIROS/workspace/estudos/onebitcode/teste-rspec/test_like_a_hero/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/LUANA.NEGREIROS/workspace/estudos/onebitcode/teste-rspec/test_like_a_hero/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20210930-434271-5jmtvu
